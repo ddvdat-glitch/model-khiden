@@ -1,0 +1,34 @@
+# 基础依赖
+torch>=2.0.0
+transformers>=4.45.0
+accelerate==0.32.1
+peft==0.11.1
+datasets==2.20.0
+pandas
+numpy
+tqdm
+
+# Qwen模型依赖
+tiktoken
+einops
+sentencepiece
+
+# 音频处理
+soundfile
+torchaudio
+
+# Web界面
+gradio>=4.0.0
+
+# F5-TTS依赖（从F5-TTS项目安装）
+# cached-path
+# hydra-core
+# omegaconf
+# unidecode
+
+# 开发和测试
+pytest
+jupyter
+
+# 可选：模型下载
+modelscope==1.16.1
